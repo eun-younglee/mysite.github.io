@@ -8,6 +8,13 @@ It must only appear once, at the top of the page (before any HTML tags).-->
   h2 {
   color: blue;
 }
+  body {
+  background-color: #e6ffff;
+}
+  .artist {
+  text-align: center;
+}
+    
 </style>
 </head>
 <body>
@@ -15,14 +22,54 @@ It must only appear once, at the top of the page (before any HTML tags).-->
 <h1>My Favourite Albums</h1>
   <h2>Introducing my favourite albums by artists</h2>
   
-  <img src="Pictures/achild_1.jpg" alt="Aphrodite's Child" width="200" height="200">
-  <a href="aphrodite.html" title="Aphrodite's Child">Aphrodite's Child</a>
-  <img src="Pictures/sabbath-large.jpg" alt="Black Sabbath" width="200" height="120">
-  <a href="aphrodite.html" title="Black Sabbath">Black Sabbath</a>
-  <a href="aphrodite.html" title="The Doors">The Doors</a>
-  <a href="aphrodite.html" title="Megadeth">Megadeth</a>
-  <a href="aphrodite.html" title="Metallica">Metallica</a>
-  <a href="aphrodite.html" title="Pink Floyd">Pink Floyd</a>
+  <div class="artist">
+    <div class="photo">
+      <img src="Pictures/achild_1.jpg" alt="Aphrodite's Child" width="200" height="200">
+    </div>
+    <div class="link">
+      <h3><a href="aphrodite.html" title="Aphrodite's Child">Aphrodite's Child</a></h3>
+    </div>
+  </div>
+    
+  <div class="artist">
+    <div class="photo">
+      <img src="Pictures/sabbath-large.jpg" alt="Black Sabbath" width="200" height="120">
+    </div>
+    <div class="link">
+      <h3><a href="aphrodite.html" title="Black Sabbath">Black Sabbath</a></h3>
+    </div>
+  </div>
+  
+  <div class="artist">
+    <div class="photo">
+      <img src="Pictures/megadeth-rust-in-peace-band-photo-530x375.jpg" alt="Megadeth" width="200" height="140">
+    </div>
+    <div class="link">
+      <h3><a href="megadeth.html" title="Megadeth">Megadeth</a></h3>
+    </div>
+  </div>
+  
+  <div class="artist">
+    <div class="photo">
+      <img src="Pictures/ki0zhwvnrftz.jpg" alt="Metallica" width="200" height="120">
+    </div>
+    <div class="link">
+      <h3><a href="metallica.html" title="Metallica">Metallica</a></h3>
+    </div>
+  </div>
+  
+  <div class="artist">
+    <div class="photo">
+      <img src="Pictures/1_WqJ_UyINArb8bnqm0vD4Bg.jpg" alt="Pink Floyd" width="200" height="130">
+    </div>
+    <div class="link">
+      <h3><a href="pinkfloyd.html" title="Pink Floyd">Pink Floyd</a></h3>
+    </div>
+  </div>
+  
+
+  
+  
   
 
 </body>
