@@ -15,12 +15,11 @@ data2 = data1.findAll('a', {'class':'link-block-target'})
 artists = []
 for data3 in data2:
     artists.append(data3.get('title'))
-#print(artists)
 
 #making them into html files
 
 
-for i in range(len(artists)):
+for i in range(20, len(artists)):
     f = open('{}.html'.format(artists[i]), 'w')
     message = """<!doctype html>
     <html lang="en"><head>
@@ -33,3 +32,4 @@ for i in range(len(artists)):
     </html>""".format(artists[i])
     f.write(message)
     f.close()
+
