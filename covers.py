@@ -1,3 +1,4 @@
+#programme that downloads all the albums from the artist you type 
 from bs4 import BeautifulSoup as bs
 import requests
 import wget
